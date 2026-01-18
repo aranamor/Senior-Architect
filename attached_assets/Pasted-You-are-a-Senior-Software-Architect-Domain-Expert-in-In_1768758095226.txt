@@ -1,0 +1,244 @@
+You are a **Senior Software Architect & Domain Expert in Indian Pharmacy ERP systems**.
+
+Your task is to **build a full-scale pharmacy billing & ERP web application** whose **functional capabilities are a complete 1:1 feature match of Marg ERP 9+ Pharmacy Software**.
+
+This is **not a demo app**, **not an MVP**, and **not a UI exercise**.
+
+Your only success metric is:
+
+> **Feature completeness, correctness, auditability, and real-world pharmacy usability.**
+
+---
+
+## 🧠 NON-NEGOTIABLE RULES
+
+* **Ignore UI design entirely**
+* Do **not** copy Marg’s layout, screens, or UX
+* Focus **only on functionality and business logic**
+* Every feature must be:
+
+  * Implemented OR
+  * Clearly architected with schema + APIs + workflows
+* This system must be suitable for **real Indian pharmacies running 10–12 hours/day**
+* KEEP YOUR DESIGN MODERN AND INTERACTIVE AND NOT A BORING ONE AS MARG
+
+---
+
+## 📌 PRIMARY OBJECTIVE
+
+Develop a **web-based Pharmacy Billing + Inventory + Accounting + Compliance ERP** that supports **ALL features listed below**, with **zero omissions**.
+
+If a feature exists in Marg, it must exist here.
+
+---
+
+## 🩺 CORE PHARMACY & BILLING FEATURES (MANDATORY)
+
+### 🧾 Billing & Invoicing
+
+* GST-compliant billing (HSN, CGST/SGST/IGST)
+* Fast POS billing engine
+* Item search by:
+
+  * Name
+  * Salt
+  * Substitute
+  * Rack
+  * Barcode
+  * Strip / tablet
+* Batch-wise billing
+* Expiry-aware billing (warnings + blocking rules)
+* Prescription-wise sales tracking
+* Pending prescription reminders
+* Multiple payment modes:
+
+  * Cash
+  * Credit
+  * Card
+  * UPI / digital
+  * Split payments
+* Discount management
+* Scheme / free-quantity handling
+* E-invoicing & electronic payment support
+* Sales return & refund handling
+* Hold / resume bills
+* Credit billing with customer ledger impact
+
+---
+
+## 📦 INVENTORY & STOCK MANAGEMENT
+
+* Real-time stock tracking
+* Batch-level inventory
+* Expiry date tracking
+* Near-expiry & expired stock alerts
+* Rack / bin / shelf location tracking
+* Re-order level definition & alerts
+* Barcode generation & scanning
+* Dead stock identification
+* Free-stock (scheme) inventory handling
+
+---
+
+## 📚 ACCOUNTING & FINANCE (BUILT-IN, NOT OPTIONAL)
+
+* Integrated accounting ledger
+* Customer ledger
+* Supplier ledger
+* Cash book
+* Bank book
+* Day book
+* Credit limits & alerts
+* GST calculation engine
+* GST returns:
+
+  * GSTR-1
+  * GSTR-3B
+* Bank reconciliation
+* Financial statements:
+
+  * Profit & Loss
+  * Balance Sheet
+  * Cash Flow
+
+---
+
+## 📊 REPORTS & ANALYTICS ENGINE
+
+Must support **large, filterable, exportable reports**, including but not limited to:
+
+* Sales reports (daily, monthly, yearly)
+* Item-wise sales
+* Batch-wise profit
+* Expiry reports
+* Stock valuation
+* Fast-moving & slow-moving items
+* Doctor-wise sales
+* Patient-wise sales
+* Operator-wise billing
+* Tax & margin analysis
+* MIS reports
+* Statutory compliance reports
+
+Reports must be:
+
+* SQL-driven
+* Filterable
+* Exportable (CSV / Excel)
+
+---
+
+## 👥 CUSTOMER & SUPPLIER MANAGEMENT
+
+* Customer master
+* Customer transaction history
+* Customer ledger & aging
+* Supplier master
+* Supplier purchase history
+* Supplier outstanding & aging
+* CRM-style reminders & follow-ups
+
+---
+
+## 👔 USER, STORE & ACCESS CONTROL
+
+* Multi-store / multi-branch support
+* Role-based access control:
+
+  * Admin
+  * Pharmacist
+  * Billing operator
+* Operator-wise permissions
+* Action-level access control
+* Full activity & audit logs
+
+---
+
+## 🧪 COMPLIANCE & SAFETY (CRITICAL)
+
+* Schedule H drug tagging
+* Schedule H1 drug tracking
+* Narcotics / controlled drug tracking
+* Prescription mandatory enforcement
+* Doctor-wise controlled drug reporting
+* Audit trails for:
+
+  * Bill edits
+  * Stock changes
+  * Financial changes
+* Data security
+* Backup & restore mechanisms
+
+---
+
+## 🌐 CONNECTIVITY & INTEGRATIONS
+
+* ERP-to-ERP supplier order processing
+* WhatsApp invoice & alerts
+* SMS alerts
+* Purchase import from:
+
+  * Excel
+  * CSV
+  * PDF
+* Optional e-commerce readiness
+* Mobile app readiness (owner / retailer)
+
+---
+
+## 📌 OPTIONAL / ADVANCED FEATURES (ARCHITECT FOR THEM)
+
+* Loyalty & reward programs
+* Appointment scheduling
+* Online prescription handling
+* E-prescribing
+* Advanced batch reminders
+
+---
+
+## 🏗️ ARCHITECTURE EXPECTATIONS
+
+You must produce:
+
+1. **High-level system architecture**
+2. **Database schema (normalized & scalable)**
+3. **Core domain models**
+4. **API contracts**
+5. **Transaction-safe billing flow**
+6. **Audit & compliance design**
+7. **Scalability considerations**
+8. **Clear module boundaries**
+
+Engineering constraints:
+
+* No business logic in frontend
+* Billing must be transactional & rollback-safe
+* Every financial action must be auditable
+* No irreversible operations
+
+---
+
+## 📦 OUTPUT FORMAT
+
+Deliver the solution in **clear structured sections**:
+
+1. System architecture overview
+2. Module-wise feature implementation plan
+3. Database schema (tables + relations)
+4. Core billing workflow
+5. Accounting & GST workflow
+6. Reporting engine design
+7. Compliance & audit mechanisms
+8. Phase-wise development roadmap
+
+---
+
+## 🧭 FINAL MINDSET CHECK
+
+Build this as if:
+
+> “This software will replace Marg in a real pharmacy tomorrow.”
+
+No shortcuts.
+No assumptions.
+No missing features.
